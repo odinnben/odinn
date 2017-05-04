@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<title>elder scrolls</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="verkefni6.css">
+<body bgcolor="black">
+<ul>
+  <li><a class="active" href="verkefni 6.html">Home</a></li>
+  <li><a href="arena.html">Arena</a></li>
+  <li><a href="daggerfall.html">Daggerfall</a></li>
+  <li><a href="morrowind.html">Morrowind</a></li>
+  <li><a href="oblivion.html">oblivion</a></li>
+  <li><a href="skyrim.html">Skyrim</a></li>
+</ul>
+<!--slideshow-->
+<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="arena.jpg" style="width:100%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    <a href="">Arena <a>
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="daggerfall.jpg" style="width:100%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    <a href=""> Daggerfall <a>
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="morrowind.jpg" style="width:100%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    <a href=""> Morrowind <a>
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="oblivion.jpg" style="width:100%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    <a href=""> oblivion</a>
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="skyrim.jpg" style="width:100%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    <a href=""> skyrim </a>
+  </div>
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<!--main-->
+<section>
+<h3>elder scrolls<h3>
+<h3>framleiðandi
+bethesda er framleiðundur af elder scrolls heimnum þeir voru ekki það þekktir aður en þeir keyptu fallout en með þvi að geta keypt fallout þurftu þeir money og morrowind hjalpaði þeim að fa money fyrir fallout og nu i dag er fallout og elder scrolls með þeim frægustum leikum i heimi og aður en elder scrolls var til var bethesda alltaf að vinna i iþrotta leikum en þeir sjau að framtiðin þeirra var ekki þar</h3>
+
+<br>
+<h3>Patforms</h3>
+<h3>1.arena er bara a doc</h3>
+<h3>2.daggerfall er bara a doc</h3>
+<h3>3.morrowind er bara a pc og xbox</h3>
+<h3>4.oblivion er a pc,xbox,ps3 og i simanum</h3>
+<h3>5.skyrim er a pc,xbox,ps3 og ps4</h3>
+<h2>Um elder scrolls</h2>
+<h3>elder scrolls er heimur sem mörg lönd eru a það og til dæmis er skyrim,morrowind og fleiri a þessum heimi og nylega gerði bethesda leik sem hheitir elder scrolls online og hann svona er eigninlega eins og bara allir leikinir kominr saman en þetta er gerist a örðu timeline svo það er mikið að gera en þessir leikir tengjast allt ehh saman </h3>
+
+<br>
+<h3>leikir</h3>
+<h3>1.arena er fyrsti leikurinn og seldi um tvö þusund eintök</h3>
+<h3>2.daggerfall er annar leikurinn og seldi um þrju þusund eintök</h3>
+<h3>3.morrowind er þriðji leikurinn og seldi um tvöhundruð þusund eintök</h3>
+<h3>4.oblivion er a pc,xbox,ps3 og i simanum</h3>
+<h3>5.skyrim er 5 leikurinn og seldi yfir 20 milljon eintök</h3>
+
+<br>
+ 
+</section>
+<!--Footer-->
+<footer>
+  <nav>
+          <a target="_blank" href="http://elderscrolls.wikia.com/wiki/The_Elder_Scrolls_Wiki">wiki&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+          <a target="_blank" href="https://elderscrolls.bethesda.net/">official&nbsp;&nbsp;|&nbsp;&nbsp;</a>
+          <a target="_blank" href="https://www.w3schools.com/w3css/">bjargir</a>
+  </nav>
+</footer>
+</body>
+</html>

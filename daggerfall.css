@@ -1,0 +1,68 @@
+body{
+    background-image: url(../vvvv/bakgrunnur3.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #000000;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: red;
+}
+h3{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    flex-flow: column;
+    width: 64em;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom:50px
+}
+h2{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    flex-flow: column;
+    width: 64em;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.yoo{
+     display: flex;
+    font-family: 'Raleway', sans-serif;
+    flex-flow: column;
+    width: 64em;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+     width: 50%;
+}
+
+header{
+    padding-bottom: 70px
+}
